@@ -1,0 +1,355 @@
+.submenu, .treamenu, .trea-subsubmenu, .Cancer-submenu, .gynesubmenu, .gallmenu {
+display: none;
+list-style-type: none;
+box-shadow: 0px 0px 1px 0px dimgray;
+position: absolute;
+padding: 10px;
+background-color: white;
+}
+
+.nav-item:hover .submenu, 
+.nav-item:hover .treamenu, 
+.treamenu li:hover .trea-subsubmenu, 
+.treamenu li:hover .Cancer-submenu,
+.treamenu li:hover .gynesubmenu,
+.nav-item:hover .gallmenu {
+display: block;
+
+}
+
+.submenu li, 
+.treamenu li, 
+.trea-subsubmenu li, 
+.Cancer-submenu li,
+.gynesubmenu li {
+padding: 10px;
+}
+
+.submenu li a, 
+.treamenu li a, 
+.trea-subsubmenu li a,
+.Cancer-submenu li a,
+.gynesubmenu li a,
+.gallmenu li a {
+text-decoration: none;
+color: black;
+
+
+}
+
+.trea-subsubmenu, .Cancer-submenu, .gynesubmenu {
+top: 10px;
+left: 150px;
+width: 200px;
+}
+
+.gallmenu {
+width: 200px;
+top: 70px;
+}
+
+.menu-cantact{
+background-color: #0C616B;
+}
+.call{
+height: 50px;
+width: 50px;
+margin-left: 70px;
+margin-top: -5px;
+}
+.email_phone{
+height: 50px;
+width: 50px;
+margin-left: 70px;
+margin-bottom:10px;
+
+}
+.earth{
+height: 50px;
+width: 50px;
+margin-left: 70px;
+margin-bottom:10px;
+
+}
+.banner{
+height: 450px;
+width: 100%;
+background-image: url(na.png.jpg);
+background-size: 100% 100%;
+}
+.icon{
+height: 20px;
+width: 20px;
+margin-top:4px ;
+}
+
+.nav-link{
+font-weight: italic;
+font-size:20px ;
+
+}
+.treamenu,.nav-item{
+z-index: 7777;
+}
+.box{
+height: 450px;
+width: 100%;
+background-color: ;
+border: 3px solid #489DB1;
+box-shadow: 10px 7px 0px 0px #489DB1;
+}
+.footer{
+height: ;
+background-color: #DDDDDD;
+}
+.img{
+margin-left: 150px;
+margin-top: 10px;
+
+}
+.boxline,.boxline1{
+height: ;
+width: 100%;
+box-shadow: 0px 0px 0px 2px #0C616B;
+}
+.end{
+height: 100px;
+background-color: #0C616B;
+}
+.cont-back{
+background-image: url("as.png.jpg");
+background-size:cover;
+
+}
+.contact-map{
+position: absolute;
+left: 410px;
+height: 400px;
+width: 250px !important;
+
+}
+.pin{
+height: 30px;
+margin-top: 20px;
+font-size: 40px;
+color: darkblue;
+}
+
+.address{
+margin-left: 40px;
+margin-top: -40px;
+font-size: 26px;
+}
+
+.mail{
+height: 30px;
+margin-top: 20px;
+font-size: 20px;
+margin-left:6px;
+
+}
+
+.bol{
+  margin-top: ;
+  font-size: 30px;
+}
+.shadow{
+  box-shadow: 2px 2px 2px 2px dimgray;
+}
+.borderline,.borderline1,.borderline2{
+  border: 3px solid #0F656B ;
+  border-top-left-radius: 19%;
+}
+.blackborder{
+  border-right: 3px  solid black;
+  height: 200px;
+}
+.smallbox{
+  height: 45px;
+  width: 15px;
+  background-color: #0F656B;
+  margin-left: 280px;
+  margin-top: -40px;
+}
+.smallbox1{
+    height: 45px;
+  width: 15px;
+  background-color: #0F656B;
+  margin-right: 280px;
+  margin-top: -40px;
+
+}
+.bg-img{
+  background-image: url("sm.png.jpg");
+}
+  .boxborder{
+    border: 10px solid #0F656B;
+    border-radius: 50px;
+    background-color: #EDF5F4;
+  }
+
+
+.hurtblog{
+  border-right: 2px dashed darkblue;
+    border-bottom: 2px dashed darkblue;
+
+
+}
+.primary{
+  border-bottom: 2px dashed darkblue;
+
+}
+.tanwar{
+  border: 2px solid #4698AC;
+  box-shadow: 8px 7px 1px 1px #4698AC ;
+}
+.tanwarsir{
+  margin-top: 10px;
+  text-align: center;
+  height: 400px;
+  width: 100%;
+}
+.name{
+  height: 100px;
+  width: ;
+  background-color: #0C616B;
+  border-bottom: 3px solid blue;
+
+}
+.goimg{
+  background-image: url("go.png");
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+.googleimg{
+  background-image: url("https://cdn.trustindex.io/assets/platform/Google/logo.svg");
+
+  background-size: cover;
+  height: 50px;
+  width: 200px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.stars{
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px  ;
+  margin-left: 50px;
+  margin-top: 10px;
+background-image: url("https://cdn.trustindex.io/assets/platform/Google/star/f.svg");
+}
+.Kidney{
+  margin-top: 20px;
+  width: 300px;
+  margin-left: 30px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+
+
+}
+.urology{
+  background-color:#B5DCE0;
+height: 150px;
+width: 330px;
+margin-left: 16px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+
+
+}
+.uroborder{
+  border: 2px solid #0F656B;
+height: 400px;
+}
+
+
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+    .banner {
+        height: 300px; /* Adjust the height for mobile */
+    }
+
+    .nav-link {
+        font-size: 16px; /* Decrease font size for better readability */
+    }
+
+    .box {
+        height: auto; /* Allow the box to grow as needed */
+    }
+
+    .contact-map {
+        left: 20px; /* Adjust position for smaller screens */
+        width: 90%; /* Make the map take up more space */
+    }
+
+    .gallmenu, .treamenu, .submenu {
+        width: 100%; /* Make menus full width */
+    }
+
+    .Kidney, .urology {
+        width: 100%; /* Ensure these boxes are full width */
+    }
+
+    .smallbox, .smallbox1 {
+        margin-left: 10px; /* Adjust margins for smaller screens */
+        margin-right: 10px;
+    }
+
+    .tanwarsir {
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    .email_phone, .call, .earth {
+        margin-left: 10px; /* Decrease margin for icons */
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 601px) and (max-width: 900px) {
+    .banner {
+        height: 400px; /* Adjust height for tablets */
+    }
+
+    .nav-link {
+        font-size: 18px; /* Slightly increase font size */
+    }
+
+    .contact-map {
+        left: 50px; /* Center map more on larger screens */
+        width: 70%; /* Make it smaller than full width */
+    }
+
+    .gallmenu, .treamenu, .submenu {
+        width: 80%; /* Adjust width for better layout */
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 901px) {
+    .banner {
+        height: 450px; /* Default height for desktops */
+    }
+
+    .nav-link {
+        font-size: 20px; /* Default font size for desktops */
+    }
+
+    .contact-map {
+        left: 410px; /* Keep original position for larger screens */
+        width: 250px; /* Keep original width */
+    }
+
+    .gallmenu, .treamenu, .submenu {
+        width: 200px; /* Keep original width for menus */
+    }
+
+    .tanwarsir {
+        height: 400px; /* Original height for this section */
+    }
+}
